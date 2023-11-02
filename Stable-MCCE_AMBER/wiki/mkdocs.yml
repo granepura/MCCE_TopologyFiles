@@ -1,0 +1,78 @@
+site_name: MCCE Documentation
+
+remote_name: upstream
+
+site_url: https://gunnerlab.github.io/Stable-MCCE/
+copyright: Copyright © 2020 Gunner Lab
+google_analytics:
+  - 'UA-74771869-8'
+  - 'auto'
+
+
+nav:
+    - What is MCCE?: index.md
+    - Quick Start: quick.md
+    - Tutorial and Examples:
+      - pKa calculation: pkaexample.md
+      - Em calculation: emexample.md
+      - Hydrogen-bond network: hbexample.md
+    - Tools Program Reference: tools.md
+    - How-Tos:
+      - Customize run.prm: runprm.md
+      - Convert mcce tpl file: mcce2free.md
+      - Make a new topology file: newftpl.md
+      - Analyze ionization energy: mfehowto.md
+      - Use MS Analysis Library: ms_analysis.md
+      - Write documentation: wikihowto.md
+      - Contribute code: develop.md
+      - Install WSL: wsl.md
+
+
+#theme: readthedocs
+
+theme:
+    name: material
+    icon:
+        logo: material/code-tags
+        favicon: material/seed
+    language: en
+    palette:
+        primary: teal
+        accent: orange
+    font:
+        text: Roboto
+        code: Roboto Mono
+    feature:
+        tabs: False
+
+markdown_extensions:
+    - toc:
+          permalink: true
+    - admonition
+    - markdown_blockdiag:
+          format: svg
+    - codehilite
+
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.tilde
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+plugins:
+  - search
+  - git-revision-date
