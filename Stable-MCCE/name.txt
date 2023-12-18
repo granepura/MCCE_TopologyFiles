@@ -130,18 +130,28 @@ HBD**HEC******  *****PDD******
 *NB  CHL******  *N1B CHL******      
 *NC  CHL******  *N1C CHL******      
 *ND  CHL******  *N1D CHL******      
-*NA  AvB******  *N1A AvB******      rename Chl a vs b atoms           - added by Gehan
+*NA  BCL******  *N1A BCL******      rename BChl a atoms                    - added by Gehan
+*NB  BCL******  *N1B BCL******
+*NC  BCL******  *N1C BCL******
+*ND  BCL******  *N1D BCL******
+*NA  AvB******  *N1A AvB******      rename Chl a vs b atoms                - added by Gehan
 *NB  AvB******  *N1B AvB******
 *NC  AvB******  *N1C AvB******
 *ND  AvB******  *N1D AvB******   
-*NA  FRL******  *N1A FRL******      rename FRL-Chl a vs d vs f atoms  - added by Gehan
+*NA  FRL******  *N1A FRL******      rename FRL-Chl a vs d vs f atoms       - added by Gehan
 *NB  FRL******  *N1B FRL******
 *NC  FRL******  *N1C FRL******
 *ND  FRL******  *N1D FRL******
-*NA  AOB******  *N1A AOB******      rename Chl a vs b atoms           - added by Gehan
+*NA  REC******  *N1A REC******      rename REC-Chl a vs b vs d vs f atoms  - added by Gehan
+*NB  REC******  *N1B REC******
+*NC  REC******  *N1C REC******
+*ND  REC******  *N1D REC******
+*NA  AOB******  *N1A AOB******      rename Chl a vs b atoms                - added by Gehan
 *NB  AOB******  *N1B AOB******
 *NC  AOB******  *N1C AOB******
 *ND  AOB******  *N1D AOB******
+
+
 
 *C1  CL*******  *C1  CT1******      create Chl a/b/d tail - added by Gehan
 *C2  CL*******  *C2  CT1******
@@ -227,6 +237,27 @@ HBD**HEC******  *****PDD******
 *C19 FRL******  *C19 CT4******
 *C20 FRL******  *C20 CT4******
 
+*C1  REC******  *C1  CT1******      create chlorophyll tail for REC-CHL a vs vs b vs d vs f - added by Gehan
+*C2  REC******  *C2  CT1******
+*C3  REC******  *C3  CT1******
+*C4  REC******  *C4  CT1******
+*C5  REC******  *C5  CT1******
+*C6  REC******  *C6  CT2******
+*C7  REC******  *C7  CT2******
+*C8  REC******  *C8  CT2******
+*C9  REC******  *C9  CT2******
+*C10 REC******  *C10 CT2******
+*C11 REC******  *C11 CT3******
+*C12 REC******  *C12 CT3******
+*C13 REC******  *C13 CT3******
+*C14 REC******  *C14 CT3******
+*C15 REC******  *C15 CT3******
+*C16 REC******  *C16 CT4******
+*C17 REC******  *C17 CT4******
+*C18 REC******  *C18 CT4******
+*C19 REC******  *C19 CT4******
+*C20 REC******  *C20 CT4******
+
 *C1  F6C******  *C1  CT1******      create Chl f tail - added by Gehan
 *C2  F6C******  *C2  CT1******
 *C3  F6C******  *C3  CT1******
@@ -247,6 +278,29 @@ HBD**HEC******  *****PDD******
 *C18 F6C******  *C18 CT4******
 *C19 F6C******  *C19 CT4******
 *C20 F6C******  *C20 CT4******
+
+
+*C1  BCL******  *C1  CT1******      create Chl f tail - added by Gehan
+*C2  BCL******  *C2  CT1******
+*C3  BCL******  *C3  CT1******
+*C4  BCL******  *C4  CT1******
+*C5  BCL******  *C5  CT1******
+*C6  BCL******  *C6  CT2******
+*C7  BCL******  *C7  CT2******
+*C8  BCL******  *C8  CT2******
+*C9  BCL******  *C9  CT2******
+*C10 BCL******  *C10 CT2******
+*C11 BCL******  *C11 CT3******
+*C12 BCL******  *C12 CT3******
+*C13 BCL******  *C13 CT3******
+*C14 BCL******  *C14 CT3******
+*C15 BCL******  *C15 CT3******
+*C16 BCL******  *C16 CT4******
+*C17 BCL******  *C17 CT4******
+*C18 BCL******  *C18 CT4******
+*C19 BCL******  *C19 CT4******
+*C20 BCL******  *C20 CT4******
+
 
 
 *C1A DGD******  *C1A DGA******      create DGD subheads, DGA and DGB head - added by Gehan (11/17/22)
@@ -394,6 +448,17 @@ HBD**HEC******  *****PDD******
 *C37 LHG******  *C37 lhg*******
 *C38 LHG******  *C38 lhg*******
 
+*C2  LMU******  *C2  lmu*******     create LMU tail - added by Gehan (11/06/23)
+*C3  LMU******  *C3  lmu*******
+*C4  LMU******  *C4  lmu*******
+*C5  LMU******  *C5  lmu*******
+*C6  LMU******  *C6  lmu*******
+*C7  LMU******  *C7  lmu*******
+*C8  LMU******  *C8  lmu*******
+*C9  LMU******  *C9  lmu*******
+*C10 LMU******  *C10 lmu*******
+*C11 LMU******  *C11 lmu*******
+*C12 LMU******  *C12 lmu*******
 
 *C9  SQD******  *C9  sqd*******     create SQD tail - added by Gehan (09/19/22)
 *C10 SQD******  *C10 sqd*******
