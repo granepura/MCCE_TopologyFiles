@@ -15,7 +15,7 @@ CONFLIST, CLB: CLBBK, CLB01
 # CLB01 is CLB neutral    ( Chlorophyll B )
 
 # Atom definition
-CONNECT, " MG ", CLB01: sp3, " N1D", " N1A", " N1B", " N1C"
+CONNECT, "MG  ", CLB01: sp3, " N1D", " N1A", " N1B", " N1C"
 CONNECT, " CHA", CLB01: sp2, " C4D", " CBD", " C1A"
 CONNECT, " CHB", CLB01: sp2, " C4A", " C1B", " HHB"         ##
 CONNECT, " CHC", CLB01: sp2, " C4B", " C1C", " HHC"         ##
@@ -23,7 +23,7 @@ CONNECT, " CHD", CLB01: sp2, " C1D", " C4C", " HHD"         ##
 CONNECT, " HHB", CLB01: s, " CHB" ##
 CONNECT, " HHC", CLB01: s, " CHC" ##
 CONNECT, " HHD", CLB01: s, " CHD" ##
-CONNECT, " N1A", CLB01: sp2, " C1A", " MG ", " C4A"
+CONNECT, " N1A", CLB01: sp2, " C1A", "MG  ", " C4A"
 CONNECT, " C1A", CLB01: sp2, " C2A", " CHA", " N1A"
 CONNECT, " C2A", CLB01: sp3, " CAA", " C3A", " C1A", " H2A" ##    sp2-hybrid
 CONNECT, " C3A", CLB01: sp3, " C2A", " CMA", " C4A", " H3A" ##    sp2-hybrid
@@ -43,7 +43,7 @@ CONNECT, "HAA1", CLB01: s, " CAA" ##
 CONNECT, "HAA2", CLB01: s, " CAA" ##
 CONNECT, "HBA1", CLB01: s, " CBA" ##
 CONNECT, "HBA2", CLB01: s, " CBA" ##
-CONNECT, " N1B", CLB01: sp2, " C1B", " MG ", " C4B"
+CONNECT, " N1B", CLB01: sp2, " C1B", "MG  ", " C4B"
 CONNECT, " C1B", CLB01: sp2, " CHB", " C2B", " N1B"
 CONNECT, " C2B", CLB01: sp2, " CMB", " C3B", " C1B"         ###
 CONNECT, " C3B", CLB01: sp2, " C2B", " CAB", " C4B"
@@ -57,7 +57,7 @@ CONNECT, "HMB2", CLB01: s, " CMB" #####
 CONNECT, "HMB3", CLB01: s, " CMB" #####
 CONNECT, "HBB1", CLB01: s, " CBB" #####
 CONNECT, "HBB3", CLB01: s, " CBB" #####
-CONNECT, " N1C", CLB01: sp2, " C1C", " C4C", " MG "
+CONNECT, " N1C", CLB01: sp2, " C1C", " C4C", "MG  "
 CONNECT, " C1C", CLB01: sp2, " C2C", " CHC", " N1C"
 CONNECT, " C2C", CLB01: sp2, " CMC", " C3C", " C1C"
 CONNECT, " C3C", CLB01: sp2, " CAC", " C4C", " C2C"
@@ -72,7 +72,7 @@ CONNECT, "HAC2", CLB01: s, " CAC" ##
 CONNECT, "HBC1", CLB01: s, " CBC" ##
 CONNECT, "HBC2", CLB01: s, " CBC" ##
 CONNECT, "HBC3", CLB01: s, " CBC" ##
-CONNECT, " N1D", CLB01: sp2, " C1D", " MG ", " C4D"
+CONNECT, " N1D", CLB01: sp2, " C1D", "MG  ", " C4D"
 CONNECT, " C1D", CLB01: sp2, " C2D", " N1D", " CHD"
 CONNECT, " C2D", CLB01: sp2, " CMD", " C3D", " C1D"
 CONNECT, " C3D", CLB01: sp2, " C2D", " CAD", " C4D"
@@ -94,7 +94,7 @@ CONNECT, "HED2", CLB01: s, " CED" ##
 CONNECT, "HED3", CLB01: s, " CED" ##
 
 # Atom charges
-CHARGE, CLB01, " MG ":  1.33981  
+CHARGE, CLB01, "MG  ":  1.33981  
 CHARGE, CLB01, " CHA": -0.1112  
 CHARGE, CLB01, " CHB": -0.32179 
 CHARGE, CLB01, " CHC": -0.25446 
@@ -174,7 +174,7 @@ CHARGE, CLB01, "HED3":  0.22695   ##
                                   # H-charge 0.34502 --> 0.34502/4 = 0.086255
 
 # Atom radius, dielectric boundary radius, VDW radius, and energy well depth
-RADIUS,  CLB01,  " MG ": 1.180,   2.000,   0.173
+RADIUS,  CLB01,  "MG  ": 1.180,   2.000,   0.173
 RADIUS,  CLB01,  " CHA": 1.700,   2.000,   0.150
 RADIUS,  CLB01,  " CHB": 1.700,   2.000,   0.150
 RADIUS,  CLB01,  " CHC": 1.700,   2.000,   0.150
